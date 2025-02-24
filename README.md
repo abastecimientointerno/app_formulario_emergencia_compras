@@ -1,71 +1,33 @@
-# Getting Started with Create React App
+# Emergency Purchase App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicación web desarrollada en **React** para gestionar solicitudes de compras de emergencia.
 
-## Available Scripts
+## Características
+- **Formulario Principal**: Captura datos del solicitante (nombre, email, área, unidad operativa, planta/embarcación).
+- **Artículos Dinámicos**: Permite añadir y eliminar artículos con validación de campos obligatorios.
+- **Fecha Informativa**: Muestra la fecha actual sin interacción del usuario.
+- **Diálogo de Confirmación**: Notifica el envío exitoso con el ID del ticket y una animación de un pez.
+- **Integración con SharePoint**: Almacena solicitudes para gestión por compradores.
+- **Notificación por Correo**: El usuario recibe un correo con los detalles de la solicitud.
+- **Vista Kanban**: Los compradores gestionan tickets en SharePoint.
+- **Animaciones**: Efectos suaves en la interfaz usando `framer-motion`.
+- **Validación**: Campos obligatorios validados con `react-hook-form`.
 
-In the project directory, you can run:
+## Tecnologías Utilizadas
+- **React**: Frontend principal (versión 18).
+- **Material-UI**: Componentes y estilos modernos.
+- **Framer Motion**: Animaciones fluidas.
+- **React Hook Form**: Manejo y validación de formularios.
+- **Axios**: Peticiones HTTP al backend.
+- **Power Automate**: Procesamiento y flujo de datos.
+- **SharePoint**: Almacenamiento y gestión de tickets.
 
-### `npm start`
+## Requisitos Previos
+- Node.js (versión 16 o superior recomendada).
+- npm (incluido con Node.js).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# app_formulario_emergencia_compras
+## Instalación
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/<tu-usuario>/emergency-purchase-app.git
+   cd emergency-purchase-app
